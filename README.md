@@ -4,5 +4,6 @@
  
 #### Пример требований и userflow [googledocs](https://drive.google.com/drive/folders/1AMezHM4A--cfdgHr2rV-0caa_k55l7AM)
 
-
 #### Пример хранения чеклиста для смоук [здесь](./markdown/NN/smoke_test_check_list/smoke_17_02_2023)
+
+#### Примерs баг-репортов с проекта [здесь](./bug_reports)
