@@ -7,3 +7,5 @@
 #### Пример хранения чеклиста для смоук [здесь](./markdown/NN/smoke_test_check_list/smoke_17_02_2023)
 
 #### Пример баг-репортов с проекта [здесь](./bug_reports)
+
+#### Пример баг-репортов с обучения [здесь](https://cbone.youtrack.cloud/issues)
