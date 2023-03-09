@@ -12,3 +12,7 @@
 
 #### Примеры баг-репортов [здесь](https://cbone.youtrack.cloud/issues)
 
+Мои контакты:
+8-921-925-63-03
+[Telegram](https://t.me/notfunnyname)
+arsentyevk@mail.ru
