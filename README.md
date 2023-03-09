@@ -1,4 +1,6 @@
-#### Примеры требований и тест-кейсов [googledocs](https://drive.google.com/drive/folders/1IR_vZuXdWT6zTyYilpb1DM8RaXYNCgMY)
+#### Примеры требований и тест-кейсов для компонентов [googledocs](https://drive.google.com/drive/folders/1IR_vZuXdWT6zTyYilpb1DM8RaXYNCgMY)
+
+#### Примеры требований и чеклистов для API [googledocs](https://drive.google.com/drive/folders/1AMezHM4A--cfdgHr2rV-0caa_k55l7AM?usp=share_link)
 
 #### Пример userflow [googledocs](https://drive.google.com/drive/folders/1kKdoxngVPlHKaIkpTPPu6crv9FJrNGsz)
  
@@ -9,3 +11,4 @@
 #### Примеры баг-репортов с проекта [здесь](./bug_reports)
 
 #### Примеры баг-репортов [здесь](https://cbone.youtrack.cloud/issues)
+
