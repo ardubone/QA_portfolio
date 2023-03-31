@@ -1,0 +1,37 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Node.js CD
+
+# Controls when the action will run. 
+on:
+  push:
+    branches: 
+        - frontend
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    #if: github.ref == 'refs/heads/frontend'
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    - name: Deploy using ssh
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USER }}
+        password: ${{ secrets.SSH_PASSWORD }}
+        port: 22
+        script: |
+          cd ~/github/TalkAboutAll/
+          github checkout frontend
+          git pull origin frontend
+          git status
+          cp -r ~/github/TalkAboutAll/web/frontend/ ~/github/tests/
+          cd ~/github/tests/frontend/
+          pm2 stop taa_front
+          npm ci
+          npm run build
+          pm2 start app.config.json
