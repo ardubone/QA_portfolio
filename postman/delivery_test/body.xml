@@ -1,0 +1,5 @@
+<InputModel>
+    <productsCount>{{pC}}</productsCount>
+    <productsWeight>{{pW}}</productsWeight>
+    <deliveryTime>{{dT}}</deliveryTime>
+</InputModel>

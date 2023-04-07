@@ -1,0 +1,7 @@
+curl --location --request POST 'https://5870e4db-18ae-478a-9b05-eb2cabc3e05b.serverhub.praktikum-services.ru/api/v1/courier' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "login": "testlog",
+    "password": "1234",
+    "firstName": "firstname"
+}'
