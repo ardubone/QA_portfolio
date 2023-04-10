@@ -168,36 +168,36 @@ http://www.talkaboutall.ru
 #### 4.1. Подход к тестированию
 
 1. ###### Unit Tests
-Объекты тестирования: кодовая база
-Уровни тестирования: Unit Tests [UT], Unit-Integration Tests [UIT] , System-Integration Tests [SIT]
-Вид тестирования: White Box, Functional, Change-Related
-Техники тестирования: White-Box
-Степень автоматизации: Full auto
-Анализ: статический - Lint, Code Review
+- Объекты тестирования: кодовая база
+- Уровни тестирования: Unit Tests [UT], Component-Integration Tests [CIT]
+- Вид тестирования: White Box, Functional, Change-Related
+- Техники тестирования: White-Box
+- Степень автоматизации: Full auto
+- Анализ: статический - Lint, Code Review
 
 2. ###### [DB] – Data Base
-Объекты тестирования: База данных
-Уровни тестирования: System Integration Tests [SIT]
-Вид тестирования: White Box, Structural Database Testing, Functional, Non-Functional, Change-Related
-Техники тестирования: White-Box, Grey Box
-Степень автоматизации: Manual/semi-automated
-Анализ: Динамический
+- Объекты тестирования: База данных
+- Уровни тестирования: System Integration Tests [SIT]
+- Вид тестирования: White Box, Structural Database Testing, Functional, Non-Functional, Change-Related
+- Техники тестирования: White-Box, Grey Box
+- Степень автоматизации: Manual/semi-automated
+- Анализ: Динамический
 
 3. ###### [BE] – Back-end
-Объекты тестирования:  API
-Уровни тестирования: System Integration Tests [SIT]
-Вид тестирования: White Box, Functional, Change-Related, Non-Functional
-Техники тестирования: Grey Box
-Степень автоматизации: Hybrid/semi-automated (Swagger, Postman)
-Анализ: Динамический
+- Объекты тестирования:  API
+- Уровни тестирования: Component-Integration Tests [CIT], System Integration Tests [SIT]
+- Вид тестирования: White Box, Functional, Change-Related, Non-Functional
+- Техники тестирования: Grey Box
+- Степень автоматизации: Hybrid/semi-automated (Swagger, Postman)
+- Анализ: Динамический
 
 4. ###### [FE] – Front-end
-Объекты тестирования: GUI
-Уровни тестирования: System Tests [ST], E2E-testing
-Вид тестирования: Functional, Non-Functional, Change-Related
-Техники тестирования: Black-box, Experience-Based
-Степень автоматизации: Manual/semi-automated
-Анализ: Динамический
+- Объекты тестирования: GUI
+- Уровни тестирования: Component Tests [CT], System Tests [ST], E2E-testing
+- Вид тестирования: Functional, Non-Functional, Change-Related
+- Техники тестирования: Black-box, Experience-Based
+- Степень автоматизации: Manual/semi-automated
+- Анализ: Динамический
 
 #### 4.2. Уровни тестирования	
 
